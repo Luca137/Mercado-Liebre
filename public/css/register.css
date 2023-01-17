@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+  }
+  
+  img {
+    width: 90%;
+    height: 90%;
+    padding: 10px;
+  }
+  
+  body {
+    background-color: #ebebeb;
+  }
+  
+  header {
+    background-color: #eac926;
+    width: 100%;
+    padding: 15px 0 10px 0;
+  }
+  
+  .nav-conteiner {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .logo-liebre {
+    height: 45%;
+    width: 45%;
+    display: block;
+    margin-left: 10px;
+  }
+  
+  .search {
+    width: 43%;
+    display: flex;
+    background-color: #fff;
+    border: #fff 1px solid;
+    border-radius: 10px;
+  }
+  
+  input {
+    width: 85%;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .button {
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+    padding-left: 5px;
+  }
+  
+  .nav-tittle {
+    font-size: 12px;
+    text-align: center;
+  }
+  
+  li a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .navegation {
+    margin: 10px 0;
+  }
+  
+  .burger-menu {
+    background-color: #1259c3;
+    width: 2.5em;
+    display: flex;
+    height: 2.5em;
+    border-radius: 15%;
+    margin: 10px auto;
+  }
+  
+  .burger-menu i {
+    color: #fff;
+    margin: auto;
+  }
+  
+  
+  .form{
+    background-color: #ebebeb;
+    width: 90%;
+    max-width: 900px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .form label{
+    justify-content: flex-start;
+  }
+  
+  .form input{
+    width: 60%;
+    height: 32px;
+    padding: 2px;   
+    margin: 0.5rem;
+    border: 1px solid #1259c3;
+  }
+  .user-type{
+    width: 40%;
+    display: flex;
+    align-items: center;
+  }
+  .user-option{
+    justify-content: flex-start;
+    display: block;
+  }
+  
+  .form button{
+    background-color: #1259c3;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    margin: 5px;
+  }
+  footer {
+    text-align: center;
+  }
+  
+  footer section i {
+    color: #1259c3;
+    width: 2em;
+    height: 2em;
+    margin: 10px;
+  }
+  @media (max-width: 361px) {
+    .navegation {
+      display: none;
+    }
+  
+    .description {
+      display: none;
+    }
+    .home-banner {
+      display: none;
+    }
+  }
+  @media (min-width: 361px) {
+    .search {
+      height: 50px;
+      margin: auto 0;
+    }
+    .burger-menu {
+      display: none;
+    }
+    .home-banner {
+      width: 100vw;
+      padding: 0;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    body {
+      box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+  
+    .nav-all {
+      display: flex;
+      width: 100vw;
+    }
+    .nav-tittle {
+      margin: auto 0;
+      flex-grow: 0.3;
+    }
+    .nav-conteiner {
+      flex-grow: 0.6;
+      width: 60vw;
+    }
+    .logo-liebre {
+      height: 100%;
+      width: 50%;
+    }
+    .search {
+      height: 50px;
+      margin: auto 0;
+    }
+    .burger-menu {
+      display: none;
+    }
+    .home-banner {
+      width: 100vw;
+      padding: 0;
+    }
+  }
